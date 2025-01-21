@@ -1,7 +1,9 @@
 # EvdevExampleScripts
-Scripts I've written for my macro setup
+All files are written on a raspberry pi 2b in python and NEED the evdev Libary 
 
-I'm able to create scripts, so yes I've probably used your code (sorry), if you recognise tell me if you want credit or for me to remove it.
+the command line statment i usede to install evdev is:- "sudo apt install python3-evdev"
+
+I'm unable to create scripts, so yes I've probably used your code (sorry), if you recognise your code/snippes tell me if you want credit or for me to remove it.
 
 for fun i modify scripts for all my devices
 
