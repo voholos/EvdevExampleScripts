@@ -7,7 +7,9 @@ for fun i modify scripts for all my devices
 
 Naming Key (Cameled in FileName)
 
-python libary
+python libary. 
+
+If it has INPUT-Done thats what it means all buttons wheels pucks leds ect are readable/changable in this script.
 
 device name
 
@@ -25,3 +27,4 @@ output		outputs to operating system
 usb		use all connected devices as ons programmable macro device 
 
 
+Comments for improvment are welcome.
