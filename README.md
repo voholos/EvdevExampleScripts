@@ -11,7 +11,11 @@ Naming Key (Cameled in FileName)
 
 python libary. 
 
-If it has INPUT-Done thats what it means all buttons wheels pucks leds ect are readable/changable in this script.
+If it has INPUT-DONE  thats what it means all buttons wheels pucks leds ect are readable/changable in this script.
+
+If it has OUTPUT-DONE that means inputs and outputs are working 
+
+If it has USB-DONE    that means input, output and USB are working (this may need extra RPi's and/or Arduino's)
 
 device name
 
