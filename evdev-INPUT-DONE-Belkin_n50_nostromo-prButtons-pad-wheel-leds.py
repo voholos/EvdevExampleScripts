@@ -42,10 +42,10 @@ for device in devices:
     
 
 
-if device.name=="HID 050d:0805": device = evdev.InputDevice(device.path)
-print(device.leds())
-print(device)
-for event in device.read_loop():
+if device.name=="HID 050d:0805": deviceI = evdev.InputDevice(device.path)
+print(deviceI.leds())
+print(deviceI)
+for event in deviceI.read_loop():
 #    print(event)
     if event.type==00:continue
     elif event.type==1:
@@ -103,4 +103,5 @@ for event in device.read_loop():
     elif event.type==4:continue
 #    else:
     else:print(event)
+
 
