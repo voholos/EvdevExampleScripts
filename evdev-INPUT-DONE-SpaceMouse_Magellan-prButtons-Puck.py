@@ -5,10 +5,10 @@ for device in devices:
     
 #    print(device.path, device.name, device.phys)
 #    print(device)
-    if device.name=="3Dconnexion SpaceMouse Classic USB": device = evdev.InputDevice(device.path)
+    if device.name=="3Dconnexion SpaceMouse Classic USB": deviceI = evdev.InputDevice(device.path)
 
-print(device)
-for event in device.read_loop():
+print(deviceI)
+for event in deviceI.read_loop():
 #    print("Type",event.type,"Code",event.code,"Value",event.value)
     if event.type==00:continue
     elif event.type==1:
@@ -75,3 +75,4 @@ for event in device.read_loop():
             elif event.value<-200:print("Puck 5 Tilt Right",event.value)
             else:continue
 #        else:print("Type",event.type,"Code",event.code,"Value",event.value)
+
